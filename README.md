@@ -1,2 +1,12 @@
-# nextgenmed.github.io
-NextGen Med – A student-led medical blog exploring sports injuries, modern health trends, and emerging science. Powered by curiosity, driven by data.
+# NextGen Med
+
+Welcome to **NextGen Med**, a student-run blog covering modern medicine, sports injuries, and emerging health topics through clear writing and data-backed insights.  
+This site was built using HTML and hosted with GitHub Pages.
+
+🔍 Topics include:
+- Injury breakdowns in sports
+- Weird but fascinating medical conditions
+- Fitness and health science trends
+- Data-driven analysis of real-world health issues
+
+Stay curious — and stay healthy.
