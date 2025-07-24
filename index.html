@@ -1,40 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>NextGen Med</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header>
-    <nav>
-      <div class="logo">NextGen Med</div>
-      <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Articles</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NextGen Med</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        background-color: #f9fafb;
+      }
+    </style>
+  </head>
+  <body class="font-sans text-gray-800">
+    <!-- Navbar -->
+    <header class="bg-white shadow p-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-700">NextGen Med</h1>
+      <nav class="space-x-4">
+        <a href="index.html" class="text-blue-500 hover:underline">Home</a>
+        <a href="about.html" class="text-blue-500 hover:underline">About</a>
+        <a href="posts/article1.html" class="text-blue-500 hover:underline">Articles</a>
+      </nav>
+    </header>
 
-  <section class="hero">
-    <h1>Welcome to NextGen Med</h1>
-    <p>Where future doctors explore modern health, sports medicine, and rare conditions — powered by data and curiosity.</p>
-  </section>
+    <!-- Hero -->
+    <section class="text-center py-16 px-6 bg-gradient-to-br from-blue-100 to-white">
+      <h2 class="text-4xl font-bold mb-4">Medicine. Data. The Next Generation.</h2>
+      <p class="text-lg text-gray-700 max-w-xl mx-auto">
+        A student-led blog diving into sports injuries, modern health science, and the evolving world of medicine — powered by data and curiosity.
+      </p>
+    </section>
 
-  <section class="featured">
-    <h2>Featured Article</h2>
-    <div class="article-card">
-      <h3>🧠 Concussions in the NBA: An Untold Story</h3>
-      <p>A data-backed look into head trauma across basketball — trends, risks, and overlooked realities.</p>
-      <a href="#">Read More →</a>
-    </div>
-  </section>
+    <!-- Featured Article -->
+    <section class="max-w-4xl mx-auto px-6 py-12">
+      <h3 class="text-2xl font-semibold mb-6">Featured Article</h3>
+      <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">
+        <h4 class="text-xl font-bold text-blue-600">How ACL Injuries Impact NBA Careers</h4>
+        <p class="text-gray-600 mt-2">
+          ACL tears are one of the most career-altering injuries in pro sports. In this post, we break down what the data says about recovery timelines and player performance.
+        </p>
+        <a href="posts/article1.html" class="text-blue-500 mt-4 inline-block hover:underline">Read More →</a>
+      </div>
+    </section>
 
-  <footer>
-    <p>© 2025 NextGen Med. Built by Kushal Gurram.</p>
-  </footer>
-</body>
+    <!-- Footer -->
+    <footer class="bg-white text-center py-6 border-t">
+      <p class="text-sm text-gray-500">© 2025 NextGen Med. Created by a student, for the next generation of minds.</p>
+    </footer>
+  </body>
 </html>
